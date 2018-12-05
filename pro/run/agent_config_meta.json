@@ -1,0 +1,352 @@
+{
+  "siteFile": {
+    "/favicon.ico": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js"
+  },
+  "view": {
+    "cache": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view\\config\\config.local.js",
+    "root": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultExtension": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": {
+      ".js": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
+    }
+  },
+  "vuessr": {
+    "layout": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js",
+    "renderOptions": {
+      "basedir": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js",
+      "runInNewContext": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
+    },
+    "doctype": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "manifest": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectHeadRegex": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectBodyRegex": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectCss": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view-vue-ssr\\config\\config.local.js",
+    "injectJs": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "injectRes": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "crossorigin": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "mergeLocals": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "fallbackToClient": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+    "cache": {
+      "max": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view-vue-ssr\\config\\config.default.js",
+      "maxAge": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
+    },
+    "afterRender": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-view-vue-ssr\\config\\config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js",
+    "dir": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js",
+    "encoding": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "env": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "level": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js",
+    "dir": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js",
+    "maxAge": "E:\\my_project\\pro-resume\\pro\\config\\config.local.js",
+    "dynamic": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "keys": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js",
+  "middleware": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js",
+  "development": {
+    "watchDirs": "E:\\my_project\\pro-resume\\pro\\config\\config.local.js",
+    "ignoreDirs": "E:\\my_project\\pro-resume\\pro\\config\\config.local.js",
+    "fastReady": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logview": {
+    "dir": "E:\\my_project\\pro-resume\\pro\\config\\config.local.js",
+    "prefix": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-logview\\config\\config.default.js",
+    "staticHost": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-logview\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "E:\\my_project\\pro-resume\\pro\\config\\config.local.js",
+    "protocolWhiteList": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "mode": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "cors": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-cors\\config\\config.default.js",
+  "webpack": {
+    "port": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-webpack\\config\\config.default.js",
+    "proxy": {
+      "host": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-webpack\\config\\config.default.js",
+      "match": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-webpack\\config\\config.default.js"
+    },
+    "webpackConfigList": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-webpack\\config\\config.default.js"
+  },
+  "env": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+  "name": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "version": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "description": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "debug": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "clean": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "build": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "start": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "dev": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "lint": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "fix": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "ii": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "axios": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "cross-env": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "egg": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "egg-logger": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "egg-validate": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-vue-ssr": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "element-ui": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "extend": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "lodash": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "mint-ui": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "mockjs": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "moment": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "vue": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "vue-hot-reload-api": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "vue-router": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "vuex": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "vuex-router-sync": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod-egg": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "autoprefixer": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-add-module-exports": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-syntax-dynamic-import": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-transform-object-assign": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-transform-object-rest-spread": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "babel-plugin-transform-runtime": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "babel-preset-env": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "easywebpack-cli": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "easywebpack-vue": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "egg-logview": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "egg-webpack": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "egg-webpack-vue": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "eslint-plugin-vue": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "imagemin-webpack-plugin": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "ip": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "less": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "less-loader": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "node-sass": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "sass-loader": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "vconsole": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "url": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "license": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "homepage": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "webpack": {
+      "loaders": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "strict": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "depth": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "httpclient": {
+    "enableDNSCache": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "logging": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "port": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js"
+}

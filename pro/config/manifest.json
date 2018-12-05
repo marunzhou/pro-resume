@@ -1,0 +1,23 @@
+{
+  "common.js": "/public/js/chunk/common.js",
+  "home/index.js": "/public/js/chunk/home/index.js",
+  "runtime.js": "/public/js/runtime.js",
+  "img/loading.gif": "/public/img/loading.gif",
+  "vendor.js": "/public/js/vendor.js",
+  "deps": {
+    "home/index.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/runtime.js",
+        "/public/js/chunk/common.js",
+        "/public/js/chunk/home/index.js"
+      ],
+      "css": []
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "\\public",
+    "mapped": true
+  }
+}
