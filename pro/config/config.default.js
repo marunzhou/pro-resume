@@ -35,5 +35,25 @@ module.exports = app => {
     'access'
   ];
 
+  exports.mysql = {
+    // database configuration
+    client: {
+      // host
+      host: '192.168.1.236',
+      // port
+      port: '3306',
+      // username
+      user: 'root',
+      // password
+      password: 'root',
+      // database
+      database: 'resume',
+    },
+    // load into app, default is open
+    app: true,
+    // load into agent, default is close
+    agent: false,
+  };
+
   return exports;
 };

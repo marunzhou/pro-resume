@@ -62,6 +62,21 @@
   },
   "keys": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js",
   "middleware": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js",
+  "mysql": {
+    "client": {
+      "host": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js",
+      "port": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js",
+      "user": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js",
+      "password": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js",
+      "database": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js"
+    },
+    "app": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js",
+    "agent": "E:\\my_project\\pro-resume\\pro\\config\\config.default.js",
+    "default": {
+      "database": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
   "development": {
     "watchDirs": "E:\\my_project\\pro-resume\\pro\\config\\config.local.js",
     "ignoreDirs": "E:\\my_project\\pro-resume\\pro\\config\\config.local.js",
@@ -226,6 +241,7 @@
       "egg-bin": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
       "egg-cors": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
       "egg-logger": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
       "egg-scripts": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
       "egg-validate": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
       "egg-view-vue-ssr": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\config.default.js",
