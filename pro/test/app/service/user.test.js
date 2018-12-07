@@ -19,20 +19,20 @@ describe("test/app/service/user.test.js", () => {
     it('test insert', async () => {
         const ctx = app.mockContext();
         const result = await ctx.service.user.insert(testData);
-        assert(result);
+        assert(result.code === 0);
     })
 
-    // 添加用户
+    // 更新用户
     it('test update', async () => {
         const ctx = app.mockContext();
         const result = await ctx.service.user.update(testData, { username: testData.username });
-        assert(result);
+        assert(result.code === 0);
     })
 
     // 删除用户
     it('test delete', async () => {
         const ctx = app.mockContext();
         const result = await ctx.service.user.delete({ username: testData.username });
-        assert(result);
+        assert(result.code === 0);
     })
 })

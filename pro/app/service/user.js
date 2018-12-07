@@ -3,10 +3,7 @@ const Service = require('egg').Service;
 
 class UserService extends Service {
     // 查询帐户信息
-    async find(option) {
-        const options = {
-            where: option
-        }
+    async find(options) {
         const user = await this.app.mysql.get('user', options);
         return { user };
     }
@@ -21,12 +18,12 @@ class UserService extends Service {
         }
         Object.assign(row, o);
         const isExist = await this.find({ username: row.username });
-        if(isExist) {
-            return 10001;
+        if(isExist.user) {
+            return this.ctx.helper.sqlErrorInfo(10001);
         }
         const result = await this.app.mysql.insert('user', row);
 
-        return result.affectedRows === 1;
+        return this.ctx.helper.sqlErrorInfo(0);
     }
 
     // 更新用户信息
@@ -43,13 +40,19 @@ class UserService extends Service {
         Object.assign(row, o);
         const result = await this.app.mysql.update('user', row, options);
 
-        return result.affectedRows === 1;
+        if(result.affectedRows === 0) {
+            return this.ctx.helper.sqlErrorInfo(10000);
+        }
+        return this.ctx.helper.sqlErrorInfo(0);
     }
 
     // 删除用户信息
     async delete(options) {
         const result = await this.app.mysql.delete('user', options);
-        return result.affectedRows > 0;
+        if(result.affectedRows === 0) {
+            return this.ctx.helper.sqlErrorInfo(10000);
+        }
+        return this.ctx.helper.sqlErrorInfo(0);
     }
 }
 
