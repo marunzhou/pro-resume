@@ -3,10 +3,8 @@ const Service = require('egg').Service;
 
 class UserService extends Service {
     // 查询帐户信息
-    async find(option) {
-        const options = {
-            where: option
-        }
+    async find(options) {
+
         const user = await this.app.mysql.get('user', options);
         return { user };
     }
