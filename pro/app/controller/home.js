@@ -6,8 +6,6 @@ module.exports = app => {
 
     async index() {
       const { ctx } = this;
-      const userInfo = await ctx.service.user.find(1);
-      console.log('#######################',)
       await ctx.render('home/index.js', Model.getPage(1, 10));
     }
 

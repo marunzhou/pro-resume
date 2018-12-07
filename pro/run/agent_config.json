@@ -7,7 +7,17 @@
       "encrypt": true
     },
     "security": {
-      "domainWhiteList": [],
+      "domainWhiteList": [
+        "http://localhost:7001",
+        "http://127.0.0.1:7001",
+        "http://192.168.1.236:7001",
+        "http://localhost:9000",
+        "http://127.0.0.1:9000",
+        "http://192.168.1.236:9000",
+        "http://localhost:9001",
+        "http://127.0.0.1:9001",
+        "http://192.168.1.236:9001"
+      ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
@@ -111,6 +121,19 @@
         "cron": "0 30 4 * * *"
       }
     },
+    "development": {
+      "watchDirs": [
+        "build"
+      ],
+      "ignoreDirs": [
+        "app/web",
+        "public",
+        "config"
+      ],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -126,7 +149,8 @@
       "dynamic": true,
       "preload": false,
       "buffer": false,
-      "maxFiles": 1000
+      "maxFiles": 1000,
+      "maxAge": 0
     },
     "view": {
       "root": "E:\\my_project\\pro-resume\\pro\\app\\view",
@@ -143,7 +167,7 @@
       "manifest": "E:\\my_project\\pro-resume\\pro\\config\\manifest.json",
       "injectHeadRegex": "/(<\\/head>)/i",
       "injectBodyRegex": "/(<\\/body>)/i",
-      "injectCss": true,
+      "injectCss": false,
       "injectJs": true,
       "injectRes": [],
       "crossorigin": false,
@@ -174,7 +198,21 @@
         "database": "resume"
       }
     },
-    "env": "unittest",
+    "cors": {},
+    "webpack": {
+      "port": 9000,
+      "proxy": {
+        "host": "http://127.0.0.1:9000",
+        "match": "/^\\/public\\//"
+      },
+      "webpackConfigList": []
+    },
+    "logview": {
+      "prefix": "__logs",
+      "staticHost": "https://unpkg.cnpmjs.org",
+      "dir": "E:\\my_project\\pro-resume\\pro\\logs"
+    },
+    "env": "local",
     "name": "pro",
     "keys": "<String len: 6>",
     "proxy": false,
@@ -295,17 +333,19 @@
     "logger": {
       "dir": "E:\\my_project\\pro-resume\\pro\\logs",
       "encoding": "utf8",
-      "env": "unittest",
+      "env": "local",
       "level": "INFO",
-      "consoleLevel": "WARN",
+      "consoleLevel": "DEBUG",
       "disableConsoleAfterReady": false,
       "outputJSON": false,
-      "buffer": false,
+      "buffer": true,
       "appLogName": "pro-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {},
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
       "allowDebugAtProd": false,
       "type": "agent"
     },
@@ -458,6 +498,21 @@
       "path": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-multipart",
       "version": "2.3.0"
     },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-development",
+      "version": "2.4.1"
+    },
     "logrotator": {
       "enable": true,
       "package": "egg-logrotator",
@@ -515,14 +570,55 @@
       "path": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-mysql",
       "version": "3.0.0"
     },
-    "egg-mock": {
+    "cors": {
       "enable": true,
-      "path": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-mock",
-      "name": "egg-mock",
+      "package": "egg-cors",
+      "name": "cors",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "version": "3.20.1"
+      "from": "E:\\my_project\\pro-resume\\pro\\config\\plugin.local.js",
+      "path": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-cors",
+      "version": "2.1.2"
+    },
+    "webpack": {
+      "enable": true,
+      "package": "egg-webpack",
+      "name": "webpack",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "E:\\my_project\\pro-resume\\pro\\config\\plugin.local.js",
+      "path": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-webpack",
+      "version": "4.4.9"
+    },
+    "webpackvue": {
+      "enable": true,
+      "package": "egg-webpack-vue",
+      "name": "webpackvue",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "E:\\my_project\\pro-resume\\pro\\config\\plugin.local.js",
+      "path": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-webpack-vue",
+      "version": "2.0.2"
+    },
+    "logview": {
+      "package": "egg-logview",
+      "env": [
+        "local"
+      ],
+      "enable": true,
+      "name": "logview",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "from": "E:\\my_project\\pro-resume\\pro\\config\\plugin.local.js",
+      "path": "E:\\my_project\\pro-resume\\pro\\node_modules\\egg-logview",
+      "version": "1.0.1"
     }
   }
 }

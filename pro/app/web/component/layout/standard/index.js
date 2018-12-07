@@ -26,7 +26,7 @@ export default {
   },
   computed: {
     vTitle() {
-      return this.$root.title || this.title || 'Egg + Vue';
+      return this.$root.title || this.title || 'Egg + Vue122222';
     },
     vKeywords() {
       return this.$root.keywords || this.keywords || 'egg, vue, webpack, server side render';

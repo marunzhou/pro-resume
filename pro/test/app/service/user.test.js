@@ -5,21 +5,34 @@ const mm = require('egg-mock');
 
 describe("test/app/service/user.test.js", () => {
     let app;
+    let testData = {
+        username: 'test',
+        password: 'test',
+        email: 'test@qq.com'
+    };
+    
     before(() => {
         app = mm.app();
         return app.ready();
     });
-    // 添加新用户
-    it('test service', async () => {
+    // 娣诲姞鐢ㄦ埛
+    it('test insert', async () => {
         const ctx = app.mockContext();
-        const result = await
-        ctx.service.user.insert({
-            username: 'test',
-            password: 'test',
-            email: 'test@qq.com'
-        });
+        const result = await ctx.service.user.insert(testData);
         assert(result);
     })
 
-    // 更新用户信息
+    // 娣诲姞鐢ㄦ埛
+    it('test update', async () => {
+        const ctx = app.mockContext();
+        const result = await ctx.service.user.update(testData, { username: testData.username });
+        assert(result);
+    })
+
+    // 鍒犻櫎鐢ㄦ埛
+    it('test delete', async () => {
+        const ctx = app.mockContext();
+        const result = await ctx.service.user.delete({ username: testData.username });
+        assert(result);
+    })
 })
