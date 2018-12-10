@@ -5,7 +5,7 @@ class UserService extends Service {
     // 查询帐户信息
     async find(options) {
         const user = await this.app.mysql.get('user', options);
-        return { user };
+        return user;
     }
 
     // 添加帐户
@@ -18,10 +18,13 @@ class UserService extends Service {
         }
         Object.assign(row, o);
         const isExist = await this.find({ username: row.username });
-        if(isExist.user) {
+        if(isExist) {
             return this.ctx.helper.sqlErrorInfo(10001);
         }
         const result = await this.app.mysql.insert('user', row);
+        if(result.affectedRows === 0) {
+            return this.ctx.helper.sqlErrorInfo(10000);
+        }
 
         return this.ctx.helper.sqlErrorInfo(0);
     }
